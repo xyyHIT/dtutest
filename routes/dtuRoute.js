@@ -5,12 +5,12 @@ var router = express.Router();
 
 
 router.get('/dtu', function (req, res) {
-    logger.info("dtu get ...");
+    logger.info("req.query ===>"+ JSON.stringify(req.query));
     res.json({success: true});
 });
 
 router.post('/dtu', function (req, res) {
-    logger.info("dtu post ...");
+    logger.info("req.body ===>" + JSON.stringify(req.body));
     res.json({success: true});
 })
 
