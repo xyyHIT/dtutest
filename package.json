@@ -1,0 +1,11 @@
+{
+  "name": "dtutest",
+  "version": "1.0.0",
+  "description": "",
+  "author": "xyy",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "log4js": "^2.5.3"
+  }
+}
