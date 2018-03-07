@@ -5,8 +5,13 @@ var router = express.Router();
 
 
 router.get('/dtu', function (req, res) {
-    logger.info("dtu...");
+    logger.info("dtu get ...");
     res.json({success: true});
 });
+
+router.post('/dtu', function (req, res) {
+    logger.info("dtu post ...");
+    res.json({success: true});
+})
 
 module.exports = router;
